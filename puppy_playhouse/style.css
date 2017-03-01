@@ -1,0 +1,98 @@
+html {
+	background-image: url(/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/doghouse.jpg);
+	background-size: 120%;
+	position: relative;
+}
+
+h1 {
+	border: 2px dashed white;
+	border-radius: 10px;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	width: 430px;
+}
+
+#intro {
+	color: white;
+	font-size: 20px;
+	width: 1000px;
+}
+
+table {
+	position: absolute;
+	right: 100px;
+	top: 350px;
+	color: white;
+	text-align: left;
+	font: white;
+	font-size: 25px;
+
+
+
+}
+
+#intropuppys {
+	color: white;
+	position: absolute;
+	top: 550px;
+	right: 30px;
+}
+
+h3 {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 70px;
+	top: 220px;
+}
+
+ul {
+	color: white;
+	list-style-image: url(/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/listbone.png);
+	list-style-type: circle;
+	font-weight: bold;
+	font-size: 20px;
+	width: 420px;
+	position: absolute;
+	left: 50px;
+	top: 300px; 
+}
+
+li {
+	margin: 15px;
+}
+
+h2 {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	right: 100px;
+	top: 220px; 
+}
+
+#ending {
+	top: 850px;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	width: 800px;
+	left: 400px;
+}
+
+footer {
+	color: white
+	font-size: 20px;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
