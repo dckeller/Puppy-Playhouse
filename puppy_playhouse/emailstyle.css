@@ -1,0 +1,130 @@
+html {
+	background-image: url(/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/doghouse.jpg);
+	background-size: 100%;
+	position: relative;
+}
+
+h1 {
+	background-color: darkolivegreen;
+	border: 2px dashed white;
+	border-radius: 10px;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 10px;
+	width: 410px;
+}
+
+#puppy_form div {
+	width: 500px;
+	background-color: brown;
+	border: 2px solid white;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding-top: 5px;
+}
+
+#checkbox {
+	font: white;
+	font-size: 20px;
+	margin-top: 20px;
+	width: 50px;
+}
+
+}
+textarea {
+	text-align: right;
+	width: 400px;
+}
+
+button {
+	color: white;
+	font-size: 25px;
+	background-color: peru;
+	border: darkolivegreen;
+	border-radius: 10px;
+}
+
+button:hover {
+	box-shadow: 0 12px 16px 0;
+}
+
+input, select {
+	margin-bottom: 10px;
+	text-align: right;
+	width: 300px;
+}
+
+label {
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	width: 150px;
+	text-align: right;
+
+}
+
+#link1 {
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
+	display: inline-block;
+	margin-left: 525px;
+	margin-top: 10px;
+}
+
+#link2 {
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	position: fixed;
+	bottom: : 20px;
+	padding: 5px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#link3 {
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 150px;
+	padding: 5px;
+}
+
+#link1:hover {
+	background-color: darkolivegreen;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#link2:hover {
+	background-color: darkolivegreen;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#link3:hover {
+	background-color: darkolivegreen;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+fieldset {
+	border: none;
+	width: 600px;
+	height: 450px;
+	margin: auto;
+}
+
+
+
+a {
+	font-size: 20px;
+}
+
+
+
+
+

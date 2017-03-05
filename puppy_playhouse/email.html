@@ -4,15 +4,15 @@
 <center>
 <head>
 	<title>Puppy Playhouse - Email Club</title>
+
+	<link rel="stylesheet" type="text/css" href="/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/emailstyle.css">
 </head>
 <body>
-		<img src="/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/dog-house.jpeg" alt="dog house">
 
-		<h1>Welcome to the Puppy Playhouse Email Club</h1>
+		<h1>Puppy Playhouse Email Club</h1>
 
-		<img src="/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/puppy-laptop.jpg" alt="A bunch of cute puppies!">
-
-<form name="puppyplayhouse" action="https://httpbin.org/post" method="post">
+<form name="puppyplayhouse" action="https://httpbin.org/post
+" method="post" id='puppy_form'>
 		<fieldset>
 			<div>
 				<label>Your name :</label>
@@ -22,10 +22,10 @@
 				<label>Your email :</label>
 				<input type="text" name="email">
 			</div>
+			<div>
 				<label>Dog's name:</label>
 				<input type="text" name="dog's name">
-		</fieldset>
-		<fieldset>
+			</div>
 			<div>
 				<label>Dog size:</label>
 				<select name ="dog size">
@@ -42,26 +42,18 @@
 				<label>Comments:</label>
 				<textarea name="user_message" placeholder="Tell us about your dream puppy"></textarea>
 			</div>
-		</fieldset>
-			<div>
-				<input type="checkbox" name="cb-agree" value="agree">
+			<div style="color:white;">
+				<input id="checkbox" type="checkbox" name="cb-agree" value="agree">
 				Check to accept terms & conditions
 			</div>
-		
+		</fieldset>
 	<button type="submit"> Submit</button>
 </form>
-</body>
-
-<footer>
-	<h4>Click Below</h4>
-		<a href="/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/index.html">Bark Home</a>
-
-		<a href="/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/email.html">Email Club</a>
-
-		<a href="http://www.adoptapet.com/s/puppies-and-dogs-for-sale-in-san-diego">Adoption Center</a>
-</footer>
-
-<p><a href="http://www.nbclosangeles.com/entertainment/the-scene/National-Puppy-Day-Adoption-Special-373230441.html">Photo Credit</a> to Channel 4 News</p>
-
 </center>
+		<a href="/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/index.html" id="link1">Bark Home</a>
+
+		<a href="/Users/David/devbootcamp/github-pages/dckeller.github.io/puppy_playhouse/email.html" id="link2">Email Club</a>
+
+		<a href="http://www.adoptapet.com/s/puppies-and-dogs-for-sale-in-san-diego" id="link3">Adoption Center</a>
+</body>
 </html>
