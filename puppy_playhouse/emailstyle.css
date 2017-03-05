@@ -70,7 +70,8 @@ label {
 	border-radius: 10px;
 	padding: 5px;
 	display: inline-block;
-	left: 400px;
+	margin-left: 525px;
+	margin-top: 10px;
 }
 
 #link2 {
@@ -80,14 +81,15 @@ label {
 	position: fixed;
 	bottom: : 20px;
 	padding: 5px;
+	margin-left: 30px;
+	margin-top: 10px;
 }
 
 #link3 {
 	background-color: white;
 	border-radius: 10px;
-	display: inline-block;
-	position: fixed;
-	bottom: 20px;
+	margin-top: 10px;
+	margin-left: 150px;
 	padding: 5px;
 }
 
